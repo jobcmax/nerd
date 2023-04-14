@@ -1,0 +1,79 @@
+/* bloated css */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+	--bg: #101419;
+	--mid: #1f2328;
+	--fg: #dee1e6;
+	--links: #70a5eb;
+}
+
+body {
+	background-color: var(--bg);
+	margin: 0;
+	padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--fg);
+	font-weight: 400;
+}
+
+p {
+	color: var(--fg);
+	font-weight: thin;
+}
+
+div {
+
+}
+
+a {
+	color: var(--links);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.subtext {
+	color: var(--fg);
+	text-align: center;
+	font-size: 1em;
+	padding-top: 0em;
+}
+
+.header {
+	font-size: 2em;
+	text-align: center;
+	line-height: 0.7em;
+}
+
+img {
+  	max-width: 100%;
+	max-height: 100vh;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	box-shadow: 
+	0 0 0 10px var(--bg),
+	0 0 0 12px var(--mid);
+
+}
+
+.gifs {
+	text-align: center;
+	padding-top: 1em;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-bottom: 1em;
+}
+
+.content {
+	padding-top: 2em;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
